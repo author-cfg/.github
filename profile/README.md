@@ -34,11 +34,15 @@ This application has no permission on your repo. It only verifies ownership.
 
 ### 2. Accept invitation.
 
-You should receive an invitation from GitHub to a new `author-community/owner_repo` private repository within a few minutes. Accept the invtiation and follow the instructions in the new repo. 
-
-> [!TIP]
-> The README in your new repo provides instructions to automatically add/remove trusted maintainers.
+You should receive an invitation from GitHub to a new `author-community/owner_repo` private repository within a few minutes. Accept the invtiation. 
 
 ### 3. (Optional) Uninstall the GitHub App
 
-Once verified, the Auuthor Software Integration GitHub App is no longer necessary and may be safely uninstalled from your repository.
+Once verified, the Author Software Integration GitHub App is no longer necessary and may be safely uninstalled from your repository.
+
+### 4. Define your integration
+
+Follow the instructions in the README to configure your application for use in Author software.
+
+> [!TIP]
+> The README also provides instructions to automatically add/remove trusted maintainers.
