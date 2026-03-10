@@ -19,26 +19,26 @@ Users manage their own preferences, such as default flags, arguments, and enviro
 
 ## How it Works
 
-Integration requires configuration files (JSON & optional brand assets) for each app. These are maintained in monitored app repositories within this organization. Verified app owners submit pull requests to modify their app configuration/integration. PRs are instantly approved upon automated validation.
+Integration requires configuration files (JSON & optional brand assets) for each app. These are maintained in monitored app repositories within this GitHub organization. Verified app owners submit pull requests to manage their app configuration/integration. PRs are instantly approved upon automated validation. Access to these repositories is granted through an automated owner verification process (see Verify Ownership).
 
 > [!IMPORTANT]
 > Widely used software may already have an AI-managed repository. These are created automatically in a best-effort to support community needs. They may contain mistakes. Owner-managed configurations are marked as such in the Author application with the intent of increasing end user confidence in owner-maintained software.
 
-## Geting Started
+## Verify Ownership
 
-1. Add `.author.cfg` to your repository root, or within the `.github` directory. This file contains the GitHub users you trust to maintain your integration.
+Follow these steps to be invited to your private author-community app configuration repository.
 
-```js
-// .author.cfg
-github_username_1
-github_username_2
-...
-```
-
-2. Install the [Author Software Integration GitHub App](https://github.com/apps/author-software-integration) on your repository. 
+### 1. Install the [Author Software Integration GitHub App](https://github.com/apps/author-software-integration) on your repository.
    
-   _⚠️ This application only has one permission on your repo: to read the `.author.cfg` file._
+This application has no permission on your repo. It only verifies ownership. 
 
-3. The users in the `.author.cfg` file will receive an invitation to the repository for your app.
+### 2. Accept invitation.
 
-4. Accept the invtiation and follow the instructions in the repo.
+You should receive an invitation from GitHub to the author-community repository for your app within a few minutes. Accept the invtiation and follow the instructions in the new repo. 
+
+> [!TIP]
+> The README in your new repo provides instructions to easily add/remove trusted maintainers.
+
+### 3. (Optional) Uninstall the GitHub app
+
+Once verified, the Auuthor Software Integration GitHub App is no longer necessary and may be safely uninstalled from your repository.
