@@ -19,7 +19,7 @@ Users manage their own preferences, such as default flags, arguments, and enviro
 
 ## How it Works
 
-Integration requires configuration files (JSON & optional brand assets) for each app. These are maintained in monitored app repositories within this GitHub organization. Verified app owners submit pull requests to manage their app configuration/integration. PRs are instantly approved upon automated validation. Access to these repositories is granted through an automated owner verification process (see Verify Ownership).
+Integration requires configuration files (JSON & optional brand assets) for each app. These are maintained in monitored app repositories within this GitHub organization. Verified app owners submit pull requests to manage their app configuration/integration. PRs are instantly approved upon automated validation. Access to these repositories is granted through an automated owner verification process (see below).
 
 > [!IMPORTANT]
 > Widely used software may already have an AI-managed repository. These are created automatically in a best-effort to support community needs. They may contain mistakes. Owner-managed configurations are marked as such in the Author application with the intent of increasing end user confidence in owner-maintained software.
