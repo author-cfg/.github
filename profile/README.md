@@ -37,7 +37,7 @@ github_username_2
 
 2. Install the [Author Software Integration GitHub App](https://github.com/apps/author-software-integration) on your repository. 
    
-   _⚠️ This application only has one permission on your repo: to read the `.author.cfg` file. Make sure the GitHub handles listed in this file are free of typos!_
+   _⚠️ This application only has one permission on your repo: to read the `.author.cfg` file._
 
 3. The users in the `.author.cfg` file will receive an invitation to the repository for your app.
 
