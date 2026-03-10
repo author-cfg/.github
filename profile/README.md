@@ -39,6 +39,6 @@ You should receive an invitation from GitHub to the author-community repository 
 > [!TIP]
 > The README in your new repo provides instructions to easily add/remove trusted maintainers.
 
-### 3. (Optional) Uninstall the GitHub app
+### 3. (Optional) Uninstall the GitHub App
 
 Once verified, the Auuthor Software Integration GitHub App is no longer necessary and may be safely uninstalled from your repository.
