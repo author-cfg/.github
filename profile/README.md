@@ -26,18 +26,18 @@ Integration requires configuration files (JSON & optional brand assets) for each
 
 ## Verify Ownership
 
-Follow these steps to be invited to your private author-community app configuration repository.
+Follow these steps to be invited to your private author-community configuration repository.
 
-### 1. Install the [Author Software Integration GitHub App](https://github.com/apps/author-software-integration) on your repository.
+### 1. Install the [Integration App](https://github.com/apps/author-software-integration) on _your own repository_.
    
 This application has no permission on your repo. It only verifies ownership. 
 
 ### 2. Accept invitation.
 
-You should receive an invitation from GitHub to the author-community repository for your app within a few minutes. Accept the invtiation and follow the instructions in the new repo. 
+You should receive an invitation from GitHub to a new `author-community/owner_repo` private repository within a few minutes. Accept the invtiation and follow the instructions in the new repo. 
 
 > [!TIP]
-> The README in your new repo provides instructions to easily add/remove trusted maintainers.
+> The README in your new repo provides instructions to automatically add/remove trusted maintainers.
 
 ### 3. (Optional) Uninstall the GitHub App
 
