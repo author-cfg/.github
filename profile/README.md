@@ -1,4 +1,4 @@
-#  Integratons
+#  Integrations
 
 Are you an app owner/vendor who wants to integrate your application with Author Software? If so, you've found the starting point.
 
